@@ -20,6 +20,11 @@ export const metadata: Metadata = {
     ],
     apple: "/favicon-512.png",
   },
+  openGraph: {
+    title: "Tor Portfolio",
+    description: "Full Stack Developer",
+    images: ["/cover.png"],
+  },
 }
 
 export default function RootLayout({
