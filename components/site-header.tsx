@@ -33,7 +33,7 @@ export function SiteHeader() {
           href="#top"
           className="font-mono text-sm font-semibold tracking-tight text-foreground"
         >
-          Tortakal<span className="text-primary">.</span>
+          Tortakul<span className="text-primary">.</span>
         </a>
         <div className="flex items-center gap-1 sm:gap-2">
           {links.map((link) => (

@@ -10,9 +10,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Tortakal — Portfolio',
+  title: 'Tortakul — Portfolio',
   description:
-    'Portfolio of Tortakal.',
+    'Portfolio of Tortakul.',
   icons: {
     icon: [
       { url: "/favicon-512.png", type: "image" },
