@@ -13,7 +13,6 @@ export function Contact() {
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <div className="flex items-baseline gap-4">
-            <span className="font-mono text-sm text-primary">03.</span>
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
               Contract me
             </h2>

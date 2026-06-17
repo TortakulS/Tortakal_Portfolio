@@ -84,3 +84,31 @@ export const projects: Project[] = [
     github: 'https://github.com/TortakulS/WEB-Farm-Equipment-Hub',
   },
 ]
+
+export const projectsdata: Project[] = [
+  {
+    title: 'Data pipeline Airflow',
+    description:
+      'An automated, end-to-end data pipeline designed to streamline retail analytics. The pipeline programmatically extracts raw transaction data from an on-premise PostgreSQL database via a secure Docker network, processes and cleanses the datasets using Pandas into 6 strategic business dimensions (e.g., top products, AOV, daily sales), and seamlessly streams the multi-table aggregates into Google BigQuery to support downstream business intelligence and visualization.',
+    images: [
+      '/projects/project-6.png',
+      '/projects/project-6b.png',
+      '/projects/project-6c.png',
+    ],
+    tags: ['Apache Airflow', 'Python', 'Pandas','Docker','PostgreSQL', 'Google BigQuery'],
+    github: 'https://github.com/TortakulS/Local-data-TO-Cloud-Data',
+  },
+    {
+    title: 'Local-ETL-Pipeline',
+    description:
+      'This project builds an ELT (Extract, Load, Transform) pipeline on a local machine to extract data from a CSV file, load it into a PostgreSQL database, and transform the data using Python before using it for data analysis.',
+    images: [
+      '/projects/project-7.png',
+      '/projects/project-7b.png',
+      '/projects/project-7c.png',
+    ],
+    tags: ['Python','Pandas','PostgreSQL'],
+    github: 'https://github.com/TortakulS/Local-ETL-Pipeline',
+  },
+
+]

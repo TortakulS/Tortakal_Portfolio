@@ -3,27 +3,30 @@ import { Reveal } from '@/components/reveal'
 const stack = [
   'JavaScript',
   'TypeScript',
+  'Python',
   'React',
   'Next.js',
-  'Tailwind CSS',
   'Node.js',
-  'Figma',
-  'Git',
+  'Express',
+  'Tailwind CSS',
+  
   'PostgreSQL',
   'MMSQL',
-  'Express',
+  
+  'Git',
   'Cloudflare',
   'IIS Server',
   'Raspberry Pi 4',
+  'Airflow',
+  'BigQuery',
 ]
 
 export function About() {
   return (
-    <section id="about" className="scroll-mt-10 px-6 py-24">
+    <section id="about" className="scroll-mt-10 py-24">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <div className="flex items-baseline gap-4">
-            <span className="font-mono text-sm text-primary">02.</span>
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
               About me
             </h2>
